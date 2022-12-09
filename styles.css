@@ -2,10 +2,14 @@ body {
   display: grid;
   grid-template-columns: 1fr 4fr;
   grid-template-rows: 1fr 6fr;
+  font-family: "Ubuntu", "Roboto", "Arial";
 }
 
 .sidebar {
   grid-area: 1 / 1 / 3 /2;
+  font-size: 1rem;
+  background-color: #3687c1;
+  color: white;
 }
 
 .header {
@@ -34,4 +38,30 @@ body {
 
 .trending {
   grid-area: 2/2/3/3;
+}
+
+.sidetitle {
+  padding: 2rem 0rem 2rem 1rem;
+
+  font-weight: 600;
+}
+
+.sideblock1,
+.sideblock2 {
+  padding: 2rem 0rem 2rem 1rem;
+}
+
+.sideblock1 div,
+.sideblock2 div {
+  padding-bottom: 0.8rem;
+  top: 50%;
+}
+
+.material-icons-outlined {
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
