@@ -18,7 +18,7 @@ body {
 
 .board {
   grid-area: 2 / 2 / 3 /3;
-  background-color: red;
+
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -29,7 +29,6 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1rem 1fr 1fr 1fr;
-  background-color: blue;
 }
 
 .announcements {
@@ -42,7 +41,6 @@ body {
 
 .sidetitle {
   padding: 2rem 0rem 2rem 1rem;
-
   font-weight: 600;
 }
 
@@ -64,4 +62,97 @@ body {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+input {
+  margin-top: 1rem;
+  margin-left: 5rem;
+  padding-top: 0.8rem;
+  width: 25rem;
+  border-radius: 0.3rem;
+}
+
+input::placeholder {
+  /* Center Vertically text inside searchbar - The placeholder */
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.btns {
+  padding: 0.6rem 0rem 0rem 5rem;
+}
+
+.btns > button {
+  background-color: #3687c1;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 0.3rem;
+  width: 5rem;
+}
+
+.btns > button:hover {
+  background-color: rgb(29, 64, 160);
+}
+
+.board {
+  background-color: #cbd5e1;
+}
+
+.boardtitle {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  padding-left: 1rem;
+  font-weight: 600;
+}
+
+.card {
+  font-size: initial;
+  background-color: white;
+  margin: 0.5rem 0.4rem 0.4rem 0.5rem;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.title,
+.antitle {
+  font-weight: 800;
+}
+
+.ancard {
+  background-color: white;
+  margin: 0.4rem 1rem 0.4rem 0.5rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 0.7rem;
+}
+
+.anheader {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  padding-left: 1rem;
+  font-weight: 600;
+}
+
+.trheader {
+  font-size: 1.1rem;
+  padding-left: 1rem;
+  font-weight: 600;
+}
+
+.tr1 {
+  background-color: white;
+  margin: 0.4rem 1rem 0.4rem 0.5rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 0.7rem;
+}
+
+.tr2 {
+  background-color: white;
+  margin: 0.4rem 1rem 0.4rem 0.5rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 0.7rem;
 }
